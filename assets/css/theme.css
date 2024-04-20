@@ -18437,7 +18437,6 @@ ul {
   vertical-align: middle;
 }
 
-
   .input-group-icon .input-box-icon {
     position: absolute;
     top: 50%;
@@ -18447,8 +18446,6 @@ ul {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-
-
 .form-foodwagon-control {
   border: 0 solid #E0E0E0;
   border-radius: 0.25rem;
