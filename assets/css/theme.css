@@ -18436,13 +18436,16 @@ ul {
   padding-left: 2.8rem;
   vertical-align: middle;
 }
-
-
-
-/* ...................Check this............. */
-
-
-
+/* ...................check.............. */
+  .input-group-icon .input-box-icon {
+    position: absolute;
+    top: 25%;
+    left: 1rem;
+    color: #EEEEEE;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 
 
 .form-foodwagon-control {
