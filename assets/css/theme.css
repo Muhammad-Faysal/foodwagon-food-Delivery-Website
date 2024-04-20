@@ -18437,15 +18437,35 @@ ul {
   vertical-align: middle;
 }
 
-.input-group-icon .input-box-icon {
-  position: absolute;
-  top: 50%;
-  left: 1rem;
-  color: #EEEEEE;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+
+
+/* ...................Check this............. */
+
+@media only screen and (min-width: 200px) {
+  .input-group-icon .input-box-icon {
+    position: absolute;
+    top: 25%;
+    left: 1rem;
+    color: #EEEEEE;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
 }
+@media only screen and (min-width: 451px) {
+  .input-group-icon .input-box-icon {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    color: #EEEEEE;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+}
+
 
 .form-foodwagon-control {
   border: 0 solid #E0E0E0;
