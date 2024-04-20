@@ -18436,10 +18436,11 @@ ul {
   padding-left: 2.8rem;
   vertical-align: middle;
 }
-/* ...................check.............. */
+
+
   .input-group-icon .input-box-icon {
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 1rem;
     color: #EEEEEE;
     -webkit-transform: translateY(-50%);
