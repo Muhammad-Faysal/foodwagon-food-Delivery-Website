@@ -18437,7 +18437,7 @@ ul {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 200px) {
+@media (min-width: 200px)and (max-width: 435px) {
   .input-group-icon .input-box-icon {
     position: absolute;
     top: 25%;
@@ -18448,8 +18448,12 @@ ul {
     transform: translateY(-50%);
   }
 
+  .btn-primary{
+
+    margin-top: 5px;
+  }
 }
-@media only screen and (min-width: 451px) {
+@media only screen and (min-width: 435px) {
   .input-group-icon .input-box-icon {
     position: absolute;
     top: 50%;
