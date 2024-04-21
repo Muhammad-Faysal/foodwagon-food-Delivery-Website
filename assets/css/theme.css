@@ -18440,7 +18440,7 @@ ul {
 @media (min-width: 200px)and (max-width: 435px) {
   .input-group-icon .input-box-icon {
     position: absolute;
-    top: 25%;
+    top: 23%;
     left: 1rem;
     color: #EEEEEE;
     -webkit-transform: translateY(-50%);
